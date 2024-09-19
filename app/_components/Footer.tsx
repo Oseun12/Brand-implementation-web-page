@@ -7,7 +7,7 @@ function Footer() {
   <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div>
-        <h2 className='text-orange-500 font-bold text-2xl w-44'>BRAND IMPLEMENTATION</h2>
+        <h2 className='text-white font-bold text-2xl w-44'>BRAND IMPLEMENTATION</h2>
 
         <p className="mt-6 max-w-md text-center leading-relaxed text-white sm:max-w-xs sm:text-left">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa
@@ -107,7 +107,7 @@ function Footer() {
 
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
         <div className="text-center sm:text-left">
-          <p className="text-lg font-medium text-orange-500">About Us</p>
+          <p className="text-lg text-white font-bold">About Us</p>
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
@@ -135,7 +135,7 @@ function Footer() {
         </div>
 
         <div className="text-center sm:text-left">
-          <p className="text-lg font-medium text-orange-500">Our Services</p>
+          <p className="text-lg  text-white font-bold">Our Services</p>
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
@@ -159,7 +159,7 @@ function Footer() {
         </div>
 
         <div className="text-center sm:text-left">
-          <p className="text-lg font-medium text-orange-500">Helpful Links</p>
+          <p className="text-lg text-white font-bold">Helpful Links</p>
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
@@ -175,7 +175,7 @@ function Footer() {
         </div>
 
         <div className="text-center sm:text-left">
-          <p className="text-lg font-medium text-orange-500">Contact Us</p>
+          <p className="text-lg text-white font-bold">Contact Us</p>
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
