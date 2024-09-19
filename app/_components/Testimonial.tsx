@@ -25,7 +25,7 @@ function Testimonial() {
               <h2 className='mb-6 text-ellipsis'>
                 I am thoroughly impressed with the brand implementation services provided by this company.
                 Their attention to detail and strategic approach has led to a significant improvement in
-                our brand's visibility and recognition.
+                our brand&apos;s visibility and recognition.
               </h2>
               <h2 className='text-gray-400'>Mike Mike</h2>
               <div className='flex gap-0.5 text-green-500'>
