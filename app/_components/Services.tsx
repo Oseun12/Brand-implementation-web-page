@@ -10,7 +10,7 @@ function Services() {
         <div className='flex flex-col lg:flex-row lg:gap-20'>
           {/* Text Section */}
           <div className='w-full lg:w-1/2 mb-10 lg:mb-0'>
-            <h2 className='text-7xl font-bold mb-10 '>
+            <h2 className=' text-4xl md:text-7xl font-bold mb-10 '>
               The services we provide include
             </h2>
             <p className='text-xl leading-loose'>
