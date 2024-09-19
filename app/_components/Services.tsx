@@ -55,23 +55,41 @@ function Services() {
         </div>
         
         <div className='relative h-[700px]'>
-        <Image
-            src='/images/machine.jpeg'
-            layout='fill'
-            objectFit='cover'
-            alt='Machine'
-            className='absolute inset-0 rounded-3xl'
-        />
-        <div className='absolute inset-0 bg-black opacity-75 rounded-3xl' />
-        <div className='absolute inset-0 flex flex-col items-center justify-center p-8 glass  '>
-            <h2 className='text-white text-3xl font-bold mb-4 px-4 py-2 bg-white bg-opacity-30 rounded-3xl'>
-            WHAT DO YOU KNOW ABOUT MACHINE LEARNING
-            </h2>
-            <p className='text-white text-xl leading-loose text-center w-3/6 rounded-3xl'>
-            Machine learning is a branch of artificial intelligence that focuses on building systems capable of learning from and making decisions based on data. By employing algorithms that analyze large datasets, machine learning models can identify patterns, make predictions, and improve over time without being explicitly programmed for each task. This technology is widely used in applications such as recommendation systems, natural language processing, and autonomous vehicles, driving innovation and efficiency across various industries.
-            </p>
-      </div>
-    </div>
+            <Image
+                src='/images/formbg.jpeg'
+                layout='fill'
+                objectFit='cover'
+                alt='Machine'
+                className='absolute inset-0 rounded-3xl'
+            />
+            {/* Background opacity layer */}
+            <div className='absolute inset-0 bg-black opacity-5 rounded-3xl' />
+
+            {/* Content section */}
+            <div className='absolute inset-0 flex flex-col items-center justify-center p-8 bg-black bg-opacity-30'>
+                <h2 className='text-white text-4xl font-bold mb-4 px-4 py-2 bg-black bg-opacity-30 rounded-3xl'>
+                GET IN TOUCH WITH US
+                </h2>
+                <p className='text-white text-xl leading-loose text-center w-3/6 mb-6 rounded-3xl '>
+                Stay updated with our latest news and developments in machine learning and artificial intelligence. Subscribe to our newsletter and get exclusive insights and updates delivered directly to your inbox.
+                </p>
+                
+                {/* Newsletter Form */}
+                <form className='bg-white bg-opacity-30 p-4 rounded-3xl w-full max-w-lg'>
+                <input
+                    type='email'
+                    placeholder='Enter your email'
+                    className='w-full p-3 mb-4 rounded-md bg-white bg-opacity-80 focus:outline-none'
+                />
+                <button
+                    type='submit'
+                    className='w-full p-3 bg-blue-500 text-white font-bold rounded-md hover:bg-blue-600'>
+                    Subscribe
+                </button>
+                </form>
+            </div>
+        </div>
+
       </div>
       
       
