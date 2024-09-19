@@ -10,9 +10,9 @@ function Hero() {
           <a href="#slide2" className="btn btn-circle">❯</a>
         </div>
         {/* Text confined to bottom-left */}
-        <div className="absolute mt-72 left-20  p-20  text-left text-white  bg-black bg-opacity-25 w-1/3">
+        <div className="absolute mt-48 left-32  p-20  text-left text-white  bg-black bg-opacity-25 w-1/3">
           <h2 className="text-5xl font-bold mb-6">Brand Implementation</h2>
-          <p className="mt-2 text-xl leading-loose">
+          <p className="mt-2 text-lg leading-loose">
             Brand Implementation is a cutting-edge company specializing in project management, machine learning, and implementation services. Our team of experienced professionals utilizes the latest technological advancements to deliver tailored solutions.
           </p>
         </div>
