@@ -17,7 +17,7 @@ function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 p-16  bg-black">
+    <header className=" top-0 left-0 w-full z-50 p-16 ">
       <div className="mx-auto flex h-1 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
         {/* Logo on the left */}
         <Link className="block text-orange-600 flex" href="/">
