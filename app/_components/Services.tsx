@@ -6,11 +6,11 @@ function Services() {
     <div className='relative'>
       {/* Services Section */}
       <div className='mx-auto max-w-screen-xl'>
-        <h2 className='font-semibold text-orange-400 p-6 mb-5'>OUR SERVICES</h2>
+        <h2 className='font-semibold text-gray-400 p-6 mb-5'>OUR SERVICES</h2>
         <div className='flex flex-col lg:flex-row lg:gap-20'>
           {/* Text Section */}
           <div className='w-full lg:w-1/2 mb-10 lg:mb-0'>
-            <h2 className='text-7xl font-bold mb-10 text-amber-700'>
+            <h2 className='text-7xl font-bold mb-10 '>
               The services we provide include
             </h2>
             <p className='text-xl leading-loose'>
@@ -64,7 +64,7 @@ function Services() {
         />
         <div className='absolute inset-0 bg-black opacity-75 rounded-3xl' />
         <div className='absolute inset-0 flex flex-col items-center justify-center p-8 glass  '>
-            <h2 className='text-white text-3xl font-bold mb-4 px-4 py-2 rounded bg-white bg-opacity-30 rounded-3xl'>
+            <h2 className='text-white text-3xl font-bold mb-4 px-4 py-2 bg-white bg-opacity-30 rounded-3xl'>
             WHAT DO YOU KNOW ABOUT MACHINE LEARNING
             </h2>
             <p className='text-white text-xl leading-loose text-center w-3/6 rounded-3xl'>

@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${gotu.variable} antialiased bg-slate-100 `}
+        className={`${gotu.variable} antialiased  `}
       >
         <Header />
         {children}
