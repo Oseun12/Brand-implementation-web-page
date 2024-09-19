@@ -59,7 +59,7 @@ function Testimonial() {
             <div className='overflow-hidden'>
               <h2 className='mb-6 text-ellipsis'>
                 Their attention to detail and strategic approach has led to a significant improvement
-                in our brand's visibility and recognition. We are impressed with their dedication.
+                in our brand&apos;s visibility and recognition. We are impressed with their dedication.
               </h2>
               <h2 className='text-gray-400'>Mike Mike</h2>
               <div className='flex gap-0.5 text-green-500'>
