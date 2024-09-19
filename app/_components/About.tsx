@@ -10,7 +10,7 @@ function About() {
         {/* First Section */}
         <div className='flex flex-col md:flex-row mb-20'>
           <div className='w-full md:w-1/2 p-6'>
-            <h2 className='text-5xl mb-6 font-bold'>MACHINE LEARNING</h2>
+            <h2 className='text-4xl md:text-5xl mb-6 font-bold'>MACHINE LEARNING</h2>
             <p className='leading-loose mb-6 text-xl'>
               At <span className='text-2xl font-bold'>Brand Implementation</span>, we harness the power of <span className='text-xl font-bold'>Machine Learning</span> to drive innovation and efficiency. Machine learning is revolutionizing industries by enabling systems to learn from data and make intelligent decisions without explicit programming. Our experts develop tailored machine learning models that optimize processes, predict outcomes, and uncover insights from complex data sets.
             </p>
@@ -53,7 +53,7 @@ function About() {
             />
           </div>
           <div className='w-full md:w-1/2 p-6'>
-            <h2 className='text-5xl mb-6 font-bold'>PROJECT MANAGEMENT</h2>
+            <h2 className=' text-4xl md:text-5xl mb-6 font-bold'>PROJECT MANAGEMENT</h2>
             <p className='leading-loose mb-6 text-xl'>
               At <span className='text-2xl font-bold'>Brand Implementation</span>, we excel in transforming complex projects into streamlined successes. Our team of seasoned professionals is dedicated to delivering exceptional results by focusing on strategic planning, efficient execution, and proactive problem-solving.
             </p>
@@ -78,7 +78,7 @@ function About() {
         {/* Third Section */}
         <div className='flex flex-col md:flex-row mb-20'>
           <div className='w-full md:w-1/2 p-6'>
-            <h2 className='text-5xl mb-6 font-bold'>IMPLEMENTATION</h2>
+            <h2 className='md:text-5xl mb-6 font-bold text-4xl'>IMPLEMENTATION</h2>
             <p className='leading-loose mb-6 text-xl'>
               At <span className='text-2xl font-bold'>Brand Implementation</span>, we specialize in turning strategic plans into actionable outcomes through seamless implementation. Our team is committed to executing projects with precision. From initial planning to final deployment, we focus on effective resource management, clear communication, and minimizing disruptions.
             </p>
