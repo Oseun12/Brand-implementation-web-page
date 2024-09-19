@@ -11,7 +11,7 @@ function Hero() {
               alt="Tech Solutions"
               width={500}
               height={100}
-              src="/images/engineers.jpg"
+              src="/images/machine.jpeg"
               className="absolute inset-0 h-full w-full object-cover"
             />
           </div>
