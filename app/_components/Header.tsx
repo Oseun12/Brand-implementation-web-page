@@ -17,13 +17,13 @@ function Header() {
   };
 
   return (
-    <header className=" top-0 left-0 w-full z-50 p-16 ">
+    <header className="fixed top-0 left-0 w-full z-50 p-10 bg-white ">
       <div className="mx-auto flex h-1 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
         {/* Logo on the left */}
         <Link className="block text-orange-600 flex" href="/">
           <span className="sr-only">Home</span>
-          <Image src="/images/brandlogo (3).png" width={150} height={40} alt="logo" />
-        <Image src="/images/brandlogo (1).png" width={150} height={60} alt="logo" />
+          {/* <Image src="/images/brandlogo (3).png" width={150} height={40} alt="logo" /> */}
+        {/* <Image src="/images/brandlogo (1).png" width={150} height={60} alt="logo" /> */}
 
         </Link>
 
@@ -48,12 +48,12 @@ function Header() {
                   <button
                     onClick={toggleDropdown} // Toggle dropdown on click
                     type="button"
-                    className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-orange-300 px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+                    className="inline-flex w-full justify-center gap-x-1.5 rounded-md 0 px-3 py-2 text-sm font-semibold text-amber-700 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
                     id="menu-button"
                     aria-expanded={isDropdownOpen}
                     aria-haspopup="true"
                   >
-                    Products
+                    PRODUCTS
                     <svg
                       className="-mr-1 h-5 w-5 text-gray-400"
                       viewBox="0 0 20 20"

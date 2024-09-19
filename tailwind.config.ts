@@ -59,7 +59,10 @@ const config: Config = {
       },
     },
   },
-  plugins: [tailwindcssAnimate],
+  plugins: [
+	tailwindcssAnimate,
+	require('daisyui'),
+  ],
 };
 
 export default config;
