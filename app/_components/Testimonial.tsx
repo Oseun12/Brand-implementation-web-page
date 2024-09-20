@@ -5,7 +5,7 @@ function Testimonial() {
   return (
     <div className='mt-20 mb-20'>
       <div className='mx-auto max-w-screen-2xl p-6 gap-10'>
-        <h2 className='mb-10 text-center font-bold text-orange-600'>TESTIMONIALS</h2>
+        <h2 className='mb-10 font-bold text-gray-600 text-center'>TESTIMONIALS</h2>
         <p className='text-center mb-10 text-2xl font-bold'>What people say about US</p>
 
         {/* Parent container centered and responsive */}

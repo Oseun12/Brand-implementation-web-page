@@ -3,7 +3,7 @@ import React from 'react';
 
 function Services() {
   return (
-    <div className='relative'>
+    <div className='relative mt-10'>
       {/* Services Section */}
       <div className='mx-auto max-w-screen-xl'>
         <h2 className='font-semibold text-gray-400 p-6 mb-5'>OUR SERVICES</h2>
@@ -63,14 +63,14 @@ function Services() {
                 className='absolute inset-0 rounded-3xl'
             />
             {/* Background opacity layer */}
-            <div className='absolute inset-0 bg-black opacity-5 rounded-3xl' />
+            <div className='absolute inset-0 bg-black opacity-40 ' />
 
             {/* Content section */}
             <div className='absolute inset-0 flex flex-col items-center justify-center p-8 bg-black bg-opacity-30'>
-                <h2 className='text-white text-4xl font-bold mb-4 px-4 py-2 bg-black bg-opacity-30 rounded-3xl'>
+                <h2 className='text-white text-4xl font-bold mb-4 px-4 py-2 bg-black bg-opacity-30 '>
                 GET IN TOUCH WITH US
                 </h2>
-                <p className='text-white text-xl leading-loose text-center w-3/6 mb-6 rounded-3xl '>
+                <p className='text-white text-xl leading-loose text-center w-3/6 mb-6  '>
                 Stay updated with our latest news and developments in machine learning and artificial intelligence. Subscribe to our newsletter and get exclusive insights and updates delivered directly to your inbox.
                 </p>
                 
