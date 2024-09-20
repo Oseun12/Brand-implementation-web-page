@@ -1,14 +1,15 @@
 import About from "./_components/About";
+import Counter from "./_components/Counter";
 import Hero from "./_components/Hero";
 import Services from "./_components/Services";
-import Stats from "./_components/Stats";
 import Testimonial from "./_components/Testimonial";
 
 function App() {
   return (
     <div>
       <Hero/>
-      <Stats/>
+      <Counter/>
+      {/* <Stats/> */}
       <About/>
       <Services/>
       <Testimonial/>
