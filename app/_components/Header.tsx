@@ -16,7 +16,7 @@ function Header() {
   // };
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50  p-6 border border-gray-600">
+    <header className=" top-0 left-0 w-full z-50  p-6 bg-black bg-opacity-100">
       <div className="mx-auto flex items-center justify-between max-w-screen-xl px-4 sm:px-6 lg:px-8">
         
         {/* Logo on the left */}
