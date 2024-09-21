@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${gotu.variable} antialiased  `}
+        className={`${gotu.variable} antialiased `}
       >
         <Header />
         {children}
