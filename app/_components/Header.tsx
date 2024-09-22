@@ -121,7 +121,7 @@ function Header() {
         {/* Mobile Menu Toggle Button (visible on small screens) */}
         <button
           onClick={toggleMenu}
-          className="block md:hidden rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75"
+          className="block md:hidden rounded bg-orange-500 p-2.5 text-white transition hover:text-gray-600/75"
         >
           <span className="sr-only">Toggle menu</span>
           <svg xmlns="http://www.w3.org/2000/svg" className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
@@ -135,17 +135,17 @@ function Header() {
         <nav className="md:hidden mt-4">
           <ul className="flex flex-col items-center gap-4 text-sm">
             <li>
-              <Link className="text-gray-500 transition hover:text-gray-500/75" href="/">
+              <Link className="text-white transition hover:text-gray-500/75" href="/">
                 Home
               </Link>
             </li>
             <li>
-              <Link className="text-gray-500 transition hover:text-gray-500/75" href="/about">
+              <Link className="text-white transition hover:text-gray-500/75" href="/about">
                 About Us
               </Link>
             </li>
             <li>
-              <Link className="text-gray-500 transition hover:text-gray-500/75" href="/solutions">
+              <Link className="text-white transition hover:text-gray-500/75" href="/solutions">
                 Our Solutions
               </Link>
             </li>
