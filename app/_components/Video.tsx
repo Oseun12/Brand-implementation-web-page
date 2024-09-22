@@ -1,5 +1,5 @@
 import React from 'react';
-import { GrMoney } from "react-icons/gr";
+import { LiaCoinsSolid } from "react-icons/lia";
 
 
 function Video() {
@@ -7,7 +7,7 @@ function Video() {
     <div className="relative ">
       {/* Video Background */}
       <video
-        className="w-full h-[600px] object-cover"
+        className="w-full h-[550px] object-cover"
         autoPlay
         loop
         muted
@@ -21,12 +21,11 @@ function Video() {
 
       {/* Text on Video */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center">
-          <GrMoney className='mb-20 w-32 bg-orange-500 h-24 ' />
-        <h1 className="text-4xl font-bold mb-4">Welcome to Our Service</h1>
-        <p className="text-lg mb-6">Your partner in digital transformation</p>
+          <LiaCoinsSolid className='mb-10 w-24 px-3 rounded-full bg-orange-500 h-28 ' />
+        <h1 className="text-6xl font-bold mb-6 w-1/2 font-sans">Trusted & professional advisor for your business</h1>
         <a
           href="#"
-          className="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-600"
+          className="bg-transparent mt-6 border text-white px-10 py-3 rounded-full hover:border-0"
         >
           Get Started
         </a>
