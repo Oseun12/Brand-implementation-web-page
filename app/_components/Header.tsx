@@ -1,66 +1,127 @@
 'use client'
 
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  // const [isDropdownOpen, setIsDropdownOpen] = useState(false); // State for dropdown
+  const [isAboutDropdownOpen, setIsAboutDropdownOpen] = useState(false);
+  const [isSolutionsDropdownOpen, setIsSolutionsDropdownOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // const toggleDropdown = () => {
-  //   setIsDropdownOpen(!isDropdownOpen); // Toggle dropdown
-  // };
-
   return (
-    <header className=" top-0 left-0 w-full z-50  p-6 bg-black bg-opacity-100">
-      <div className="mx-auto flex items-center justify-between max-w-screen-xl px-4 sm:px-6 lg:px-8">
-        
-        {/* Logo on the left */}
-        <div className="flex-shrink-0">
-          <Link className="block text-white" href="/">
-            <h2 className="text-lg font-bold">BRAND IMPLEMENTATION</h2>
-          </Link>
+    <header className="fixed top-0 left-0 w-full z-50 p-4 bg-black bg-opacity-20">
+      <div className="flex items-center justify-between px-4 lg:px-8 mx-auto">
+        {/* Left Section: Logo and Navigation */}
+        <div className="flex items-center justify-start w-full md:w-auto">
+          {/* Logo */}
+          <div className="flex-shrink-0 lg:border-r border-gray-600 pr-16 h-20 last:border-r-0">
+            <Link className="block text-white" href="/">
+              <Image
+                src="/images/logo2.png"
+                width={200}
+                height={100}
+                alt="logo"
+              />
+            </Link>
+          </div>
+
+          {/* Main Navigation (hidden on medium and below) */}
+          <nav aria-label="Global" className="ml-8 hidden md:flex font-sans">
+            <ul className="flex items-center md:gap-6 lg:gap-8 lg:text-lg font-semibold">
+              <li>
+                <Link className="text-white transition hover:text-gray-500" href="/">
+                  Home
+                </Link>
+              </li>
+
+              {/* About Us with Dropdown */}
+              <li
+                className="relative"
+                onMouseEnter={() => setIsAboutDropdownOpen(true)}
+                onMouseLeave={() => setIsAboutDropdownOpen(false)}
+              >
+                <Link className="text-white transition hover:text-gray-500" href="/about">
+                  About Us
+                </Link>
+                {isAboutDropdownOpen && (
+                  <ul className="absolute left-0 mt-2 bg-white shadow-lg p-4 text-black w-60 rounded-2xl">
+                    <li className="py-2">
+                      <Link href="/about/team" className="hover:text-gray-600">
+                        Our History
+                      </Link>
+                    </li>
+                    <li className="py-2">
+                      <Link href="/about/mission" className="hover:text-gray-600">
+                        Our Vision & Mission
+                      </Link>
+                    </li>
+                    <li className="py-2">
+                      <Link href="/about/careers" className="hover:text-gray-600">
+                        Our Team
+                      </Link>
+                    </li>
+                  </ul>
+                )}
+              </li>
+
+              {/* Our Solutions with Dropdown */}
+              <li
+                className="relative"
+                onMouseEnter={() => setIsSolutionsDropdownOpen(true)}
+                onMouseLeave={() => setIsSolutionsDropdownOpen(false)}
+              >
+                <Link className="text-white transition hover:text-gray-500" href="/solutions">
+                  Our Solutions
+                </Link>
+                {isSolutionsDropdownOpen && (
+                  <ul className="absolute left-0 mt-2 bg-white shadow-lg p-4 text-black w-60 rounded-2xl">
+                    <li className="py-2">
+                      <Link href="/products" className="hover:text-gray-600">
+                        Our Products
+                      </Link>
+                    </li>
+                    <li className="py-2">
+                      <Link href="/services" className="hover:text-gray-600">
+                        Our Services
+                      </Link>
+                    </li>
+                  </ul>
+                )}
+              </li>
+
+              <li>
+                <Link className="text-white transition hover:text-gray-500" href="/contact">
+                  Careers
+                </Link>
+              </li>
+              <li>
+                <Link className="text-white transition hover:text-gray-500" href="/partner">
+                  Partner Portal
+                </Link>
+              </li>
+              <li>
+                <Link className="text-white transition hover:text-gray-500" href="/contact">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </nav>
         </div>
 
-        {/* Main Navigation */}
-        <nav aria-label="Global" className="flex-1 mx-8 hidden md:flex justify-center">
-          <ul className="flex items-center gap-8 text-sm font-semibold">
-            <li>
-              <Link className="text-white transition hover:text-gray-500" href="/">
-                HOME
-              </Link>
-            </li>
-            <li>
-              <Link className="text-white transition hover:text-gray-500" href="/about">
-                SERVICES
-              </Link>
-            </li>
-            <li>
-              <Link className="text-white transition hover:text-gray-500" href="/products">
-                PRODUCTS
-              </Link>
-            </li>
-            <li>
-              <Link className="text-white transition hover:text-gray-500" href="/contact">
-                CONTACT
-              </Link>
-            </li>
-          </ul>
-        </nav>
-
-        {/* Phone number on the right */}
-        <div className="flex-shrink-0 text-white flex-1 mx-8 hidden md:flex justify-center">
-          <h2 className="font-semibold">+ 871 944 5000</h2>
+        {/* Right Section: Phone Number (hidden on small screens) */}
+        <div className="hidden md:block sm:text-sm text-white font-semibold p-4 lg:border-l border-gray-600 pl-72 h-20 last:border-l-0">
+          <h2>+ 234 944 5000 3000</h2>
         </div>
 
-        {/* Mobile Menu Toggle Button */}
+        {/* Mobile Menu Toggle Button (visible on small screens) */}
         <button
           onClick={toggleMenu}
-          className="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden"
+          className="block md:hidden rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75"
         >
           <span className="sr-only">Toggle menu</span>
           <svg xmlns="http://www.w3.org/2000/svg" className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
@@ -69,7 +130,7 @@ function Header() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu (shown when open) */}
       {isMenuOpen && (
         <nav className="md:hidden mt-4">
           <ul className="flex flex-col items-center gap-4 text-sm">
@@ -80,12 +141,12 @@ function Header() {
             </li>
             <li>
               <Link className="text-gray-500 transition hover:text-gray-500/75" href="/about">
-                Services
+                About Us
               </Link>
             </li>
             <li>
-              <Link className="text-gray-500 transition hover:text-gray-500/75" href="/products">
-                Products
+              <Link className="text-gray-500 transition hover:text-gray-500/75" href="/solutions">
+                Our Solutions
               </Link>
             </li>
             <li>

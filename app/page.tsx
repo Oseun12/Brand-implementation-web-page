@@ -1,18 +1,24 @@
-import About from "./_components/About";
-import Counter from "./_components/Counter";
+import AI from "./_components/AI";
+import Details from "./_components/Details";
 import Hero from "./_components/Hero";
-import Services from "./_components/Services";
-import Testimonial from "./_components/Testimonial";
+import OurOffer from "./_components/OurOffer";
+import Team from "./_components/Team";
+import Video from "./_components/Video";
 
 function App() {
   return (
     <div>
       <Hero/>
-      <Counter/>
+      <Details/>
+      <Video/>
+      <OurOffer/>
+      <Team/>
+      <AI/>
+      {/* <Counter/> */}
       {/* <Stats/> */}
-      <About/>
-      <Services/>
-      <Testimonial/>
+      {/* <About/> */}
+      {/* <Services/> */}
+      {/* <Testimonial/> */}
     </div>
   );
 }
