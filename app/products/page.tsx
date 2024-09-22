@@ -1,11 +1,13 @@
-'use client'
-
 import React from 'react'
 
-function page() {
+function Pages() {
   return (
-    <div className='relative'>
-        <div className='relative'>
+    <div
+      className=" bg-cover bg-center bg-no-repeat bg-fixed"
+      style={{ backgroundImage: `url('/images/representation-collective-mind-process-concept-digital-art-style.jpg')` }}
+    >
+      {/* Content placed on top of the background image */}
+      <div className='relative'>
             {/* The image */}
             <img 
             src="/images/machine-learning.jpeg" 
@@ -34,10 +36,10 @@ function page() {
             </div>
         </div>
 
-
+        <div className='bg-white py-16'>
         <div className='mx-auto max-w-screen-lg'>
-            <h2 className='mt-10'>The point of using dummy text for your paragraph is that it has a more-or-less normal distribution of letters. making it look like readable English.</h2>
-            <div className='mt-10 mb-20'>
+            <h2 className='text-4xl  font-semibold text-gray-500'>Our Products are World Class <span className='text-orange-500'>Tailored for our Region</span> </h2>
+            <div className='mt-10 '>
                 <div className="carousel rounded-box gap-8">
                     <div className="carousel-item">
                         <div className=''>
@@ -47,8 +49,8 @@ function page() {
                             alt="Burger" />
                             
                             <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>Report to HQ</h2>
-                            <h2 className='text-3xl'>On Demnad Realtime </h2>
-                            <p className='text-3xl'>Data direct to HQ</p>
+                            <h2 className='text-3xl text-orange-500'>On Demnad Realtime </h2>
+                            <p className='text-3xl text-orange-500 '>Data direct to HQ</p>
                             
                         </div>
                     </div>
@@ -60,8 +62,8 @@ function page() {
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
                             <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>CloupApp Server</h2>
-                            <h2 className='text-3xl'>Location Based</h2>
-                            <p className='text-3xl'>information Displays</p>
+                            <h2 className='text-3xl text-orange-500'>Location Based</h2>
+                            <p className='text-3xl text-orange-500'>information Displays</p>
                         </div>
                         
                     </div>
@@ -73,8 +75,8 @@ function page() {
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
                             <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>DuluIQ-Queuing Management System</h2>
-                            <h2 className='text-3xl'>Track and understand</h2>
-                            <p className='text-3xl'>customer traffic</p>
+                            <h2 className='text-3xl text-orange-500'>Track and understand</h2>
+                            <p className='text-3xl text-orange-500'>customer traffic</p>
                         </div>
                         
                     </div>
@@ -86,7 +88,7 @@ function page() {
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
                             <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>whhhhh</h2>
-                            <h2 className='text-3xl'>jhdfgj</h2>
+                            <h2 className='text-3xl text-orange-500'>jhdfgj</h2>
                             <p className='text-sm text-gray-400 '>ijh</p>
                         </div>
                         
@@ -99,7 +101,7 @@ function page() {
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
                             <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>whhhhh</h2>
-                            <h2 className='text-3xl'>jhdfgj</h2>
+                            <h2 className='text-3xl text-orange-500'>jhdfgj</h2>
                             <p className='text-sm text-gray-400 '>ijh</p>
                         </div>
                         
@@ -112,7 +114,7 @@ function page() {
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
                             <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>whhhhh</h2>
-                            <h2 className='text-3xl'>jhdfgj</h2>
+                            <h2 className='text-3xl text-orange-500'>jhdfgj</h2>
                             <p className='text-sm text-gray-400 '>ijh</p>
                         </div>
                         
@@ -125,7 +127,7 @@ function page() {
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
                             <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>whhhhh</h2>
-                            <h2 className='text-3xl'>jhdfgj</h2>
+                            <h2 className='text-3xl text-orange-500'>jhdfgj</h2>
                             <p className='text-sm text-gray-400 '>ijh</p>
                         </div>
                         
@@ -134,9 +136,12 @@ function page() {
             </div>
 
         </div>
+        </div>
 
+        <div className='bg-gray-200 '>
+            <h2 className='text-center py-10 text-5xl font-semibold text-gray-500'>Questions  <span className='text-orange-500'> & Answers</span> </h2>
         <div className='mx-auto max-w-screen-xl'>
-            <div className='mb-10 flex'>
+            <div className=' flex'>
                 <div className='w-2/12'>
                     <ul>
                         <li className='mb-2 p-3 border border-orange-500 font-bold text-center '>Report to HQ</li>
@@ -199,17 +204,17 @@ function page() {
 
             </div>
         </div>
+        </div>
 
-        <div className='bg-orange-500 h-[220px]'>
-            
+        <div className='bg-orange-500 bg-opacity-70 h-[220px]'>
             <div className=''>
                 <h2 className='text-7xl py-10 font-sans font-bold text-white text-center '>Have any questions?</h2>
                 <h4 className='text-sm  text-white text-center '>Not sure if Solouion is right for you? let us have a call to get to know each other.</h4>
             </div>
-            
         </div>
+
     </div>
   )
 }
 
-export default page
+export default Pages

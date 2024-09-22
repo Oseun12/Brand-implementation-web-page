@@ -8,7 +8,7 @@ function Hero() {
         <div className='w-3/4'>
           <img 
             src="/images/machine learning3.jpeg" 
-            className="w-full h-screen object-cover " 
+            className="w-full h-[850px] object-cover " 
             alt="Hero Image" 
           />
           
@@ -28,7 +28,7 @@ function Hero() {
           </div>
         </div>
 
-        <div className='w-1/4 bg-slate-800 p-16'>
+        <div className='w-1/4 h-[850px] bg-slate-800 p-16'>
           <ul className=' mt-20 space-y-12'>  {/* Add space between list items */}
             
             {/* First list item */}
@@ -90,7 +90,7 @@ function Hero() {
         <div className='w-3/4'>
           <img 
             src="/images/group.jpeg" 
-            className="w-full h-screen object-cover " 
+            className="w-full h-[850px] object-cover " 
             alt="Hero Image" 
           />
           
@@ -110,7 +110,7 @@ function Hero() {
           </div>
         </div>
 
-        <div className='w-1/4 bg-slate-800 p-16'>
+        <div className='w-1/4 h-[850px] bg-slate-800 p-16'>
           <ul className=' mt-20 space-y-12'>  {/* Add space between list items */}
             
             {/* First list item */}
@@ -173,7 +173,7 @@ function Hero() {
         <div className='w-3/4'>
           <img 
             src="/images/ml.webp" 
-            className="w-full h-screen object-cover " 
+            className="w-full h-[850px] object-cover " 
             alt="Hero Image" 
           />
           
@@ -193,7 +193,7 @@ function Hero() {
           </div>
         </div>
 
-        <div className='w-1/4 bg-slate-800 p-16'>
+        <div className='w-1/4 h-[850px] bg-slate-800 p-16'>
           <ul className='w- mt-20 space-y-12'>  {/* Add space between list items */}
             
             {/* First list item */}
@@ -255,7 +255,7 @@ function Hero() {
         <div className='w-3/4'>
           <img 
             src="/images/pm3.jpg" 
-            className="w-full h-screen object-cover " 
+            className="w-full h-[850px] object-cover " 
             alt="Hero Image" 
           />
           
@@ -274,7 +274,7 @@ function Hero() {
           </div>
         </div>
 
-        <div className='w-1/4 bg-slate-800 p-16'>
+        <div className='w-1/4 h-[850px] bg-slate-800 p-16'>
           <ul className='mt-20 space-y-12'>  {/* Add space between list items */}
             
             {/* First list item */}
@@ -336,7 +336,7 @@ function Hero() {
         <div className='w-3/4'>
           <img 
             src="/images/pm4.avif" 
-            className="w-full h-screen object-cover " 
+            className="w-full h-[850px] object-cover " 
             alt="Hero Image" 
           />
           
@@ -355,7 +355,7 @@ function Hero() {
           </div>
         </div>
 
-        <div className='w-1/4 bg-slate-800 p-16'>
+        <div className='w-1/4 h-[850px] bg-slate-800 p-16'>
           <ul className='mt-20 space-y-12'>  {/* Add space between list items */}
             
             {/* First list item */}
