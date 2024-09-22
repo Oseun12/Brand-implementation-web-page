@@ -73,7 +73,7 @@ function page() {
                     </div>
 
                     {/* second section */}
-                    <div className='w-2/3'>
+                    <div className='md:w-2/3'>
                         <div>
                             <div className='border-2 px-10 py-16'>
                                 <h2 className='mb-10 font-bold text-xl'>Business services</h2>
@@ -96,8 +96,8 @@ function page() {
 
                 </div>
                 
-                <div className='flex gap-6 '>
-                    <div className='w-1/3 border hover:border-orange-500 p-4 rounded-3xl'>
+                <div className='md:flex gap-6 '>
+                    <div className='md:w-1/3 border hover:border-orange-500 p-4 rounded-3xl mb-4'>
                         <h2 className='mb-6 mt-6 font-bold text-lg'>A Real-Time Customer Feedback System</h2>
                         <p className='text-gray-500 mb-10'>DoYouLikeUs.com is a powerful feedback system designed to collect real-time insights from customers. This tool empowers brands by gathering customer perspectives on their products and services, helping refine offers, assess market segmentation, and evaluate the reception of new products.</p>
                         <h3 className='flex items-center text-gray-500 '><ImCheckmark className=' w-7 h-8 rounded-full m-4 text-orange-600' />Real-Time Feedback Collection </h3>
@@ -106,7 +106,7 @@ function page() {
                         
                     </div>
 
-                    <div className='w-1/3 border border-orange-500 hover:border-orange-500 p-4 rounded-3xl'>
+                    <div className='md:w-1/3 border border-orange-500 hover:border-orange-500 p-4 rounded-3xl mb-4'>
                         <h2 className='mb-6 font-bold text-lg mt-6'>Centralized Communication and Reporting Tool</h2>
                         <p className=' text-gray-500'> Reports to HQ is a comprehensive reporting tool designed to centralize communication between an organization’s various branches and its headquarters. By integrating all offices within a single platform, it enables organizations to track sales, monitor daily operations, and improve structural efficiency.</p>
                         <h3 className='flex items-center text-gray-500'><ImCheckmark className=' w-8 h-8 rounded-full m-4 text-orange-600' />Centralized Communication </h3>
@@ -115,7 +115,7 @@ function page() {
                         <h3 className='flex items-center text-gray-500'><ImCheckmark className=' w-8 h-8 rounded-full m-4 text-orange-600' />Organogram Integration </h3>
                     </div>
 
-                    <div className='w-1/3 border hover:border-orange-500 p-4 rounded-3xl'>
+                    <div className='md:w-1/3 border hover:border-orange-500 p-4 rounded-3xl mb-4'>
                         <h2 className='mb-6 mt-6 font-bold text-lg'>A Comprehensive Tool for Task and Project Management</h2>
                         <p className=' mb-10 text-gray-500'>My Task Manager is a comprehensive project and task management tool designed to help organizations efficiently plan, manage, and track their projects. It provides real-time tracking of deadlines, project stages, and task completion statuses, ensuring that all tasks are completed on time and meet organizational goals.</p>
                         <h3 className='flex items-center text-gray-500'><ImCheckmark className=' w-8 h-8 rounded-full m-4 text-orange-600' />Task Scheduling and Tracking</h3>
@@ -127,7 +127,7 @@ function page() {
             </div>
 
             <div className='mx-auto max-w-screen-xl mt-10'>
-                <div className=' w-3/5  rounded-xl p-4 mb-5 '>
+                <div className=' md:w-3/5  rounded-xl p-4 mb-5 '>
                     <div className="collapse collapse-arrow  bg-white border border-gray-300 mb-4">
                         <input type="radio" name="my-accordion-2" defaultChecked />
                         <div className="collapse-title text-xl text-orange-500 font-semibold"> Queuing Management System</div>
@@ -159,7 +159,7 @@ function page() {
                     </div>
 
                     <div className='mt-10 flex gap-10'>
-                        <div className='w-1/2'>
+                        <div className='md:w-1/2'>
                             <h2 className='text-lg font-bold mb-6'>Business analysis</h2>
                             <p className='text-sm'>Lorem Ipsum is simply dummy text of not the print typesetting industry has been industrys standard dummy. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                             <h3 className='flex items-center text-gray-500 '><ImCheckmark className=' w-7 h-8 rounded-full m-4 text-orange-600' />Research beyond the business plan</h3>
@@ -168,7 +168,7 @@ function page() {
                             <h3 className='flex items-center text-gray-500 '><ImCheckmark className=' w-7 h-8 rounded-full m-4 text-orange-600' />Help companies into more profitable </h3>
                             <h3 className='flex items-center text-gray-500 '><ImCheckmark className=' w-7 h-8 rounded-full m-4 text-orange-600' />Customer engagement matters</h3>
                         </div>
-                        <div className='w-1/2'>
+                        <div className='md:w-1/2'>
                             <Image
                                 src='/images/chart.webp'
                                 width={500}
