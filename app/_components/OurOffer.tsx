@@ -10,7 +10,7 @@ function OurOffer() {
             <h2 className='text-gray-600 text-4xl text-center font-semibold '>What we can <span className='text-orange-500'>do for you</span> </h2>
         </div>
 
-        <div className='justify-center mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-20  gap-10 '>
+        <div className='justify-center mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-20  gap-10 p-4 '>
  
             <div className=''>
                 <a href="#" className="group relative block bg-black rounded-3xl">

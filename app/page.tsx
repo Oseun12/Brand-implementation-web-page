@@ -1,3 +1,4 @@
+import AI from "./_components/AI";
 import Details from "./_components/Details";
 import Hero from "./_components/Hero";
 import OurOffer from "./_components/OurOffer";
@@ -12,6 +13,7 @@ function App() {
       <Video/>
       <OurOffer/>
       <Team/>
+      <AI/>
       {/* <Counter/> */}
       {/* <Stats/> */}
       {/* <About/> */}
