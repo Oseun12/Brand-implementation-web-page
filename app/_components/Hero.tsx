@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className="carousel w-full h-screen">
       <div id="slide1" className="carousel-item relative w-full h-screen">
-        <div className='w-3/4'>
+        <div className='md:w-3/4'>
           <img 
             src="/images/machine learning3.jpeg" 
             className="w-full h-[850px] object-cover " 
@@ -19,16 +19,21 @@ function Hero() {
           </div>
           
           {/* Centered text over image */}
-          <div className="absolute inset-0 flex items-center   text-white px-32">
+          <div className="absolute inset-0 flex items-center text-white px-32 lg:mt-20">
             <div className="p-8 bg-opacity-0 bg-gray-900 rounded-lg">
-              <h2 className="text-5xl md:text-6xl lg:text-8xl font-bold font-sans mb-10 w-4/6">is your <span className='text-orange-500'>brand</span>  stragety being implemented without <span className='text-orange-500'>data</span>  ??s</h2>
-              <p className='w-4/6 font-semibold'>We are a data-driven company that focuses on providing insights and solutions based on data analysis and research. Our approach is to use data to drive decision-making and strategy development for our clients.</p>
-              <a href="#get-started" className=" mt-10 btn bg-transparent w-44 text-white border-orange-500 border-2 ">Get Started</a>
+              <h2 className="text-5xl md:text-4xl lg:text-8xl font-bold font-sans mb-10 w-5/6 md:block hidden">
+                is your <span className='text-orange-500'>brand</span> strategy being implemented without <span className='text-orange-500'>data</span>?
+              </h2>
+              <p className="font-semibold w-4/6 md:block hidden">
+                We are a data-driven company that focuses on providing insights and solutions based on data analysis and research. Our approach is to use data to drive decision-making and strategy development for our clients.
+              </p>
+              <a href="#get-started" className="mt-10 btn bg-transparent w-44 text-white border-orange-500 border-2">Get Started</a>
             </div>
           </div>
+
         </div>
 
-        <div className='w-1/4 h-[850px] bg-slate-800 lg:p-16'>
+        <div className='w-1/4 h-[850px] bg-slate-800 lg:p-16 hidden md:block'>
           <ul className=' mt-20 space-y-12'>  {/* Add space between list items */}
             
             {/* First list item */}
@@ -87,7 +92,7 @@ function Hero() {
       </div>
 
       <div id="slide1" className="carousel-item relative w-full h-screen">
-        <div className='w-3/4'>
+        <div className='md:w-3/4'>
           <img 
             src="/images/group.jpeg" 
             className="w-full h-[850px] object-cover " 
@@ -101,16 +106,17 @@ function Hero() {
           </div>
           
           {/* Centered text over image */}
-          <div className="absolute inset-0 flex items-center text-white px-32">
+          <div className="absolute inset-0 flex items-center text-white px-32 lg:mt-20">
             <div className="p-8 bg-opacity-0 bg-gray-900 rounded-lg">
-              <h2 className="text-5xl md:text-6xl lg:text-8xl font-bold font-sans mb-10 w-4/6">is your <span className='text-orange-500'>brand</span> stragety being implemented without <span className='text-orange-500'>Support</span>  ??</h2>
-              <p className='font-semibold w-4/6'>We are a data-driven company that focuses on providing insights and solutions based on data analysis and research. Our approach is to use data to drive decision-making and strategy development for our clients.</p>
+            <h2 className="text-5xl md:text-5xl  lg:text-8xl font-bold font-sans mb-10 w-5/6 md:block hidden">
+            is your <span className='text-orange-500'>brand</span> stragety being implemented without <span className='text-orange-500'>Support</span>  ??</h2>
+              <p className='font-semibold w-4/6 md:block hidden'>We are a data-driven company that focuses on providing insights and solutions based on data analysis and research. Our approach is to use data to drive decision-making and strategy development for our clients.</p>
               <a href="#get-started" className=" mt-10 btn bg-transparent w-44 text-white border-orange-500 border-2 ">Get Started</a>
             </div>
           </div>
         </div>
 
-        <div className='w-1/4 h-[850px] bg-slate-800 p- lg:p-16'>
+        <div className='w-1/4 h-[850px] bg-slate-800 p- lg:p-16 md:block hidden'>
           <ul className=' mt-20 space-y-12'>  {/* Add space between list items */}
             
             {/* First list item */}
@@ -170,7 +176,7 @@ function Hero() {
 
 
       <div id="slide1" className="carousel-item relative w-full h-screen">
-        <div className='w-3/4'>
+        <div className='md:w-3/4'>
           <img 
             src="/images/ml.webp" 
             className="w-full h-[850px] object-cover " 
@@ -184,16 +190,16 @@ function Hero() {
           </div>
           
           {/* Centered text over image */}
-          <div className="absolute inset-0 flex items-center  text-white px-32">
+          <div className="absolute inset-0 flex items-center  text-white px-32 lg:mt-20">
             <div className="p-8 bg-opacity-0 bg-gray-900 rounded-lg">
-              <h2 className="text-5xl md:text-6xl lg:text-8xl font-bold font-sans mb-10 w-4/6">is your <span className='text-orange-500'>brand</span>  stragety being implemented without <span className='text-orange-500'>AI</span>  ??</h2>
-              <p className='font-semibold w-4/5'>We are a data-driven company that focuses on providing insights and solutions based on data analysis and research. Our approach is to use data to drive decision-making and strategy development for our clients.</p>
-              <a href="#get-started" className="btn bg-white w-44 text-black">Get Started</a>
+              <h2 className="text-5xl md:text-5xl lg:text-8xl font-bold font-sans mb-10 w-5/6 md:block hidden">is your <span className='text-orange-500'>brand</span>  stragety being implemented without <span className='text-orange-500'>AI</span>  ??</h2>
+              <p className='font-semibold w-4/5 md:block hidden'>We are a data-driven company that focuses on providing insights and solutions based on data analysis and research. Our approach is to use data to drive decision-making and strategy development for our clients.</p>
+              <a href="#get-started" className="mt-10 btn bg-transparent w-44 text-white border-orange-500 border-2">Get Started</a>
             </div>
           </div>
         </div>
 
-        <div className='w-1/4 h-[850px] bg-slate-800 lg:p-16'>
+        <div className='w-1/4 h-[850px] bg-slate-800 lg:p-16 md:block hidden'>
           <ul className='w- mt-20 space-y-12'>  {/* Add space between list items */}
             
             {/* First list item */}
@@ -252,7 +258,7 @@ function Hero() {
       </div>
 
       <div id="slide1" className="carousel-item relative w-full h-screen">
-        <div className='w-3/4'>
+        <div className='md:w-3/4'>
           <img 
             src="/images/pm3.jpg" 
             className="w-full h-[850px] object-cover " 
@@ -266,15 +272,15 @@ function Hero() {
           </div>
           
           {/* Centered text over image */}
-          <div className="absolute inset-0 flex items-center text-white px-32">
+          <div className="absolute inset-0 flex items-center text-white px-32 lg:mt-20">
             <div className="p-8 bg-opacity-0 bg-gray-900 rounded-lg">
-              <h2 className="text-5xl md:text-6xl lg:text-8xl font-bold font-sans mb-10 w-4/6">is your <span className='text-orange-500'>brand</span>  stragety being implemented without <span className='text-orange-500'>data</span>  ??s</h2>
+              <h2 className="text-5xl md:text-5xl lg:text-8xl font-bold font-sans mb-10 w-5/6 md:block hidden">is your <span className='text-orange-500'>brand</span>  stragety being implemented without <span className='text-orange-500'>data</span>  ??s</h2>
               <a href="#get-started" className=" mt-10 btn bg-transparent w-44 text-white border-orange-500 border-2 ">Get Started</a>
             </div>
           </div>
         </div>
 
-        <div className='w-1/4 h-[850px] bg-slate-800 lg:p-16'>
+        <div className='w-1/4 h-[850px] bg-slate-800 lg:p-16 md:block hidden'>
           <ul className='mt-20 space-y-12'>  {/* Add space between list items */}
             
             {/* First list item */}
@@ -333,7 +339,7 @@ function Hero() {
       </div>
 
       <div id="slide1" className="carousel-item relative w-full h-screen">
-        <div className='w-3/4'>
+        <div className='md:w-3/4'>
           <img 
             src="/images/pm4.avif" 
             className="w-full h-[850px] object-cover " 
@@ -347,15 +353,15 @@ function Hero() {
           </div>
           
           {/* Centered text over image */}
-          <div className="absolute inset-0 flex items-center  text-white px-32">
+          <div className="absolute inset-0 flex items-center  text-white px-32 lg:mt-20">
             <div className="p-8 bg-opacity-0 bg-gray-900 rounded-lg">
-              <h2 className="text-5xl md:text-6xl lg:text-8xl font-bold font-sans mb-10 w-4/6">is your <span className='text-orange-500'>brand</span>  stragety being implemented without <span className='text-orange-500'>data</span>  ??s</h2>
+              <h2 className="text-5xl md:text-5xl lg:text-8xl font-bold font-sans mb-10 w-5/6 md:block hidden">is your <span className='text-orange-500'>brand</span>  stragety being implemented without <span className='text-orange-500'>data</span>  ??s</h2>
               <a href="#get-started" className=" mt-10 btn bg-transparent w-44 text-white border-orange-500 border-2 ">Get Started</a>
             </div>
           </div>
         </div>
 
-        <div className='w-1/4 h-[850px] bg-slate-800 lg:p-16'>
+        <div className='w-1/4 h-[850px] bg-slate-800 lg:p-16 md:block hidden'>
           <ul className='mt-20 space-y-12'>  {/* Add space between list items */}
             
             {/* First list item */}

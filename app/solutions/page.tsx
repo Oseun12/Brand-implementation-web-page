@@ -51,8 +51,8 @@ function page() {
                             <h2 className='text-2xl md:text-5xl font-bold mb-10'>CLOUDAPP</h2>
                             <p className='text-sm text-gray-500'>
                             CloudApp is a robust digital brand asset management platform designed to help organizations securely store, manage, and distribute their digital assets, such as advertisements, announcements, and other brand materials. By leveraging advanced security protocols, CloudApp ensures that sensitive materials remain protected while offering a seamless way for brands to communicate with their target audience.                            </p>
-                            <div className='md:flex'>
-                                <div className='w-1/2 mt-10'>
+                            <div className='lg:flex'>
+                                <div className='lg:w-1/2 mt-10'>
                                     <Image
                                     src='/images/pm3.jpg'
                                     width={500}
@@ -60,7 +60,7 @@ function page() {
                                     layout='intrinsic'
                                     alt=''/>
                                 </div>
-                                <div className='w-1/2 px-20 mt-10 '>
+                                <div className='lg:w-1/2 px-20 mt-10  '>
                                     <h2 className='mb-4 font-bold'>Features</h2>
                                     <h3 className='flex items-center '><ImCheckmark className='bg-orange-500 text-white w-7 h-8 rounded-full m-4' />Signage Integration </h3>
                                     <h3 className='flex items-center '><ImCheckmark className='bg-orange-500 text-white w-7 h-8 rounded-full m-4' />Mechanized Delivery System </h3>
