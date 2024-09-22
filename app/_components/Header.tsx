@@ -19,7 +19,7 @@ function Header() {
         {/* Left Section: Logo and Navigation */}
         <div className="flex items-center justify-start w-full md:w-auto">
           {/* Logo */}
-          <div className="flex-shrink-0 border-r border-gray-600 pr-16 h-20 last:border-r-0">
+          <div className="flex-shrink-0 lg:border-r border-gray-600 pr-16 h-20 last:border-r-0">
             <Link className="block text-white" href="/">
               <Image
                 src="/images/logo2.png"
@@ -32,7 +32,7 @@ function Header() {
 
           {/* Main Navigation (hidden on medium and below) */}
           <nav aria-label="Global" className="ml-8 hidden md:flex font-sans">
-            <ul className="flex items-center gap-8 text-lg font-semibold">
+            <ul className="flex items-center md:gap-6 lg:gap-8 lg:text-lg font-semibold">
               <li>
                 <Link className="text-white transition hover:text-gray-500" href="/">
                   Home
@@ -45,7 +45,7 @@ function Header() {
                 onMouseEnter={() => setIsAboutDropdownOpen(true)}
                 onMouseLeave={() => setIsAboutDropdownOpen(false)}
               >
-                <Link className="text-white transition hover:text-gray-500 " href="/about">
+                <Link className="text-white transition hover:text-gray-500" href="/about">
                   About Us
                 </Link>
                 {isAboutDropdownOpen && (
@@ -57,12 +57,12 @@ function Header() {
                     </li>
                     <li className="py-2">
                       <Link href="/about/mission" className="hover:text-gray-600">
-                        Our Visoin & Mission
+                        Our Vision & Mission
                       </Link>
                     </li>
                     <li className="py-2">
                       <Link href="/about/careers" className="hover:text-gray-600">
-                        Our team
+                        Our Team
                       </Link>
                     </li>
                   </ul>
@@ -90,7 +90,6 @@ function Header() {
                         Our Services
                       </Link>
                     </li>
-                    
                   </ul>
                 )}
               </li>
@@ -115,7 +114,7 @@ function Header() {
         </div>
 
         {/* Right Section: Phone Number (hidden on small screens) */}
-        <div className="hidden md:block text-white font-semibold p-4 border-l border-gray-600 pl-72 h-20 last:border-l-0">
+        <div className="hidden md:block sm:text-sm text-white font-semibold p-4 lg:border-l border-gray-600 pl-72 h-20 last:border-l-0">
           <h2>+ 234 944 5000 3000</h2>
         </div>
 
@@ -146,7 +145,7 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link className="text-gray-500 transition hover:text-gray-500/75" href="/services">
+              <Link className="text-gray-500 transition hover:text-gray-500/75" href="/solutions">
                 Our Solutions
               </Link>
             </li>
