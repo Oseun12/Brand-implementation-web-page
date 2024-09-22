@@ -49,8 +49,8 @@ function Pages() {
                             alt="Burger" />
                             
                             <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>Report to HQ</h2>
-                            <h2 className='text-3xl text-orange-500'>On Demnad Realtime </h2>
-                            <p className='text-3xl text-orange-500 '>Data direct to HQ</p>
+                            <h2 className='text-xl md:text-3xl text-orange-500'>On Demnad Realtime </h2>
+                            <p className='text-xl md:text-3xl text-orange-500 '>Data direct to HQ</p>
                             
                         </div>
                     </div>
@@ -62,8 +62,8 @@ function Pages() {
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
                             <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>CloupApp Server</h2>
-                            <h2 className='text-3xl text-orange-500'>Location Based</h2>
-                            <p className='text-3xl text-orange-500'>information Displays</p>
+                            <h2 className='text-xl md:text-3xl text-orange-500'>Location Based</h2>
+                            <p className='text-xl md:text-3xl text-orange-500'>information Displays</p>
                         </div>
                         
                     </div>
@@ -75,8 +75,8 @@ function Pages() {
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
                             <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>DuluIQ-Queuing Management System</h2>
-                            <h2 className='text-3xl text-orange-500'>Track and understand</h2>
-                            <p className='text-3xl text-orange-500'>customer traffic</p>
+                            <h2 className='text-xl md:text-3xl text-orange-500'>Track and understand</h2>
+                            <p className='text-xl md:text-3xl text-orange-500'>customer traffic</p>
                         </div>
                         
                     </div>
@@ -88,8 +88,8 @@ function Pages() {
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
                             <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>DoYouLikeUs.com</h2>
-                            <h2 className='text-3xl text-orange-500'>How To Better Serve </h2>
-                            <h2 className='text-3xl text-orange-500'>you Customer</h2>
+                            <h2 className='text-xl md:text-3xl text-orange-500'>How To Better Serve </h2>
+                            <h2 className='text-xl md:text-3xl text-orange-500'>you Customer</h2>
 
                         </div>
                         
@@ -102,7 +102,7 @@ function Pages() {
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
                             <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>My Task Master</h2>
-                            <h2 className='text-3xl text-orange-500'>Buy Youtube Views</h2>
+                            <h2 className='text-xl md:text-3xl text-orange-500'>Buy Youtube Views</h2>
                         </div>
                         
                     </div>
@@ -114,8 +114,8 @@ function Pages() {
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
                             <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>QRX-Dulu</h2>
-                            <h2 className='text-3xl text-orange-500'>QR-Code Management</h2>
-                            <p className='text-3xl text-orange-500 '>paperless Solutions</p>
+                            <h2 className='text-xl md:text-3xl text-orange-500'>QR-Code Management</h2>
+                            <p className='text-xl md:text-3xl text-orange-500 '>paperless Solutions</p>
                         </div>
                         
                     </div>
@@ -127,7 +127,7 @@ function Pages() {
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
                             <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>My Task Master</h2>
-                            <h2 className='text-3xl text-orange-500'>Buy Youtube Views</h2>
+                            <h2 className='text-xl md:text-3xl text-orange-500'>Buy Youtube Views</h2>
                         </div>
                         
                     </div>
@@ -141,7 +141,7 @@ function Pages() {
             <h2 className='text-center py-10 text-5xl font-semibold text-gray-500'>Questions  <span className='text-orange-500'> & Answers</span> </h2>
         <div className='mx-auto max-w-screen-xl'>
             <div className=' flex'>
-                <div className='w-2/12'>
+                <div className='md:w-2/12'>
                     <ul>
                         <li className='mb-2 p-3 border border-orange-500 font-bold text-center '>Report to HQ</li>
                         <li className='mb-2 p-3 border border-orange-500 font-bold text-center '>DoYouLikeUs-Dulu</li>
@@ -151,7 +151,7 @@ function Pages() {
                     </ul>
                 </div>
 
-                    <div className='w-10/12 mb-20 bg-slate-900 border-orange-500 border-2 h-[500px]  items-center justify-center'>
+                    <div className='hidden md:block md:w-10/12 mb-20 bg-slate-900 border-orange-500 border-2 h-[500px]  items-center justify-center'>
                         <div role="tablist" className="tabs tabs-lifted  justify-center items-center space-x-4 p-6">
                         
                         {/* Tab 1 */}
@@ -207,7 +207,7 @@ function Pages() {
 
         <div className='bg-orange-500 bg-opacity-70 h-[220px]'>
             <div className=''>
-                <h2 className='text-7xl py-10 font-sans font-bold text-white text-center '>Have any questions?</h2>
+                <h2 className='md:text-7xl py-10 font-sans font-bold text-white text-center '>Have any questions?</h2>
                 <h4 className='text-sm  text-white text-center '>Not sure if Solouion is right for you? let us have a call to get to know each other.</h4>
             </div>
         </div>
