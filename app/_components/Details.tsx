@@ -3,7 +3,7 @@ import React from 'react'
 
 function Details() {
   return (
-    <div className='mx-auto max-w-screen-lg mb-20'>
+    <div className='mx-auto max-w-screen-lg mb-20 mt-10'>
         <div className='mx-auto max-w-screen-md'>
             <div className='text-center'>
                 <h2 className='text-3xl  text-gray-600'>Welcome to Brand Imp: <span className='text-orange-500'>Your Behind-the-Scenes</span>  </h2>
@@ -38,7 +38,7 @@ function Details() {
             </div>
         </div>
         
-        <div className='mt-20 flex gap-10'>
+        <div className='mt-20 flex gap-10 p-2'>
       
       {/* First Image with Overlay */}
       <div className='relative'>
@@ -51,8 +51,8 @@ function Details() {
           className='object-cover'
         />
         {/* Overlay Container */}
-        <div className='absolute bottom-0  w-3/5 h-32 bg-orange-500 justify-end text-white p-6 rounded-r-full'>
-          <h3 className='text-2xl font-semibold mb-2'>Explore consultancy services</h3>
+        <div className='md:block hidden absolute bottom-0  w-3/5 h-32 bg-orange-500 justify-end text-white p-6 rounded-r-full'>
+          <h3 className='text-xl font-semibold mb-2'>Explore consultancy services</h3>
           <a href='#' className='text-sm underline'>Read More</a>
         </div>
       </div>
@@ -68,8 +68,8 @@ function Details() {
           className='object-cover'
         />
         {/* Overlay Container */}
-        <div className='absolute bottom-0  w-3/5 h-32 bg-orange-500 justify-end text-white p-6 rounded-r-full'>
-          <h3 className='text-2xl font-semibold mb-2'>Get a professional advice</h3>
+        <div className='md:block hidden absolute bottom-0  w-3/5 h-32 bg-orange-500 justify-end text-white p-6 rounded-r-full'>
+          <h3 className='text-xl font-semibold mb-2'>Get a professional advice</h3>
           <a href='#' className='text-sm underline'>Read More</a>
         </div>
       </div>

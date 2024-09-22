@@ -35,7 +35,7 @@ function page() {
         </div>
 
 
-        <div className='mx-auto max-w-screen-lg'>
+        <div className='mx-auto max-w-screen-lg overflow-hidden'>
             <h2 className='mt-10'>The point of using dummy text for your paragraph is that it has a more-or-less normal distribution of letters. making it look like readable English.</h2>
             <div className='mt-10 mb-20'>
                 <div className="carousel rounded-box gap-8">
@@ -85,9 +85,9 @@ function page() {
                             src="/images/industrial-designer-digital-art.jpg"
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
-                            <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>whhhhh</h2>
-                            <h2 className='text-3xl'>jhdfgj</h2>
-                            <p className='text-sm text-gray-400 '>ijh</p>
+                            <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>DoYouLikeUs.com</h2>
+                            <h2 className='text-3xl'>How To Better Serve</h2>
+                            <p className='text-3xl '>you Customer</p>
                         </div>
                         
                     </div>
@@ -98,9 +98,8 @@ function page() {
                             src="/images/machine learning2.jpeg"
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
-                            <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>whhhhh</h2>
-                            <h2 className='text-3xl'>jhdfgj</h2>
-                            <p className='text-sm text-gray-400 '>ijh</p>
+                            <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>My Task Master</h2>
+                            <h2 className='text-3xl'>Buy Youtube Views</h2>
                         </div>
                         
                     </div>
@@ -111,9 +110,9 @@ function page() {
                             src="/images/ml.jpg"
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
-                            <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>whhhhh</h2>
-                            <h2 className='text-3xl'>jhdfgj</h2>
-                            <p className='text-sm text-gray-400 '>ijh</p>
+                            <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>QRX-Dulu</h2>
+                            <h2 className='text-3xl'>QR-Code Management</h2>
+                            <p className='text-3xl '>paperless Solutions</p>
                         </div>
                         
                     </div>
@@ -124,9 +123,8 @@ function page() {
                             src="/images/pc.jpg"
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
-                            <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>whhhhh</h2>
-                            <h2 className='text-3xl'>jhdfgj</h2>
-                            <p className='text-sm text-gray-400 '>ijh</p>
+                            <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>My Task Master</h2>
+                            <h2 className='text-3xl'>Buy Youtube Views</h2>
                         </div>
                         
                     </div>

@@ -22,7 +22,7 @@ function Video() {
       {/* Text on Video */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center">
           <LiaCoinsSolid className='mb-10 w-24 px-3 rounded-full bg-orange-500 h-28 ' />
-        <h1 className="text-6xl font-bold mb-6 w-1/2 font-sans">Trusted & professional advisor for your business</h1>
+        <h1 className="md:text-6xl font-bold mb-6 w-1/2 font-sans">Trusted & professional advisor for your business</h1>
         <a
           href="#"
           className="bg-transparent mt-6 border text-white px-10 py-3 rounded-full hover:border-0"

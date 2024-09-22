@@ -20,7 +20,7 @@ function AI() {
             </div>
 
             <div className=' text-center mx-auto mb-20'>
-                <div className='flex gap-10 mb-20'>
+                <div className='md:flex gap-10 mb-20'>
                     <div className='flex flex-col items-center'>
                         <IoSettingsOutline className='w-28 h-28 mb-6 bg-gray-100 rounded-full text-orange-500 p-6 hover:bg-orange-500 hover:text-white' />
                         <h2 className='mb-6 font-bold text-2xl font-sans'>Business Growth</h2>
@@ -61,15 +61,16 @@ function AI() {
 
         </div>
         {/* First Footer  */}
-        <div className='bg-orange-500 h-[150px] py-16 '>
-            <div className='flex text-center items-center justify-center gap-20'>
-                <div>
-                    <h2 className='font-bold text-xl and text-white font-sans'>We know the importance of delivering the best customer experience.</h2>
+        <div className='bg-orange-500 h-[150px] py-6 md:py-16 '>
+            <div className='md:flex text-center items-center justify-center md:gap-20'>
+                <div className='mb-4 md:mb-0'>
+                    <h2 className='font-bold md:text-xl and text-white font-sans'>We know the importance of delivering the best customer experience.</h2>
                 </div>
+
                 <div>
                     <a
                         href="#"
-                        className="bg-transparent mt-6 border text-white px-10 py-3 rounded-full hover:border-0"
+                        className="bg-transparent mt-6 border text-white md:px-10 py-3 rounded-full hover:border-0"
                         >
                         Get Started
                     </a>

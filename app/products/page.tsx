@@ -37,7 +37,7 @@ function Pages() {
         </div>
 
         <div className='bg-white py-16'>
-        <div className='mx-auto max-w-screen-lg'>
+        <div className='mx-auto max-w-screen-lg overflow-hidden'>
             <h2 className='text-4xl  font-semibold text-gray-500'>Our Products are World Class <span className='text-orange-500'>Tailored for our Region</span> </h2>
             <div className='mt-10 '>
                 <div className="carousel rounded-box gap-8">
@@ -87,9 +87,10 @@ function Pages() {
                             src="/images/industrial-designer-digital-art.jpg"
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
-                            <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>whhhhh</h2>
-                            <h2 className='text-3xl text-orange-500'>jhdfgj</h2>
-                            <p className='text-sm text-gray-400 '>ijh</p>
+                            <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>DoYouLikeUs.com</h2>
+                            <h2 className='text-3xl text-orange-500'>How To Better Serve </h2>
+                            <h2 className='text-3xl text-orange-500'>you Customer</h2>
+
                         </div>
                         
                     </div>
@@ -100,9 +101,8 @@ function Pages() {
                             src="/images/machine learning2.jpeg"
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
-                            <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>whhhhh</h2>
-                            <h2 className='text-3xl text-orange-500'>jhdfgj</h2>
-                            <p className='text-sm text-gray-400 '>ijh</p>
+                            <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>My Task Master</h2>
+                            <h2 className='text-3xl text-orange-500'>Buy Youtube Views</h2>
                         </div>
                         
                     </div>
@@ -113,9 +113,9 @@ function Pages() {
                             src="/images/ml.jpg"
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
-                            <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>whhhhh</h2>
-                            <h2 className='text-3xl text-orange-500'>jhdfgj</h2>
-                            <p className='text-sm text-gray-400 '>ijh</p>
+                            <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>QRX-Dulu</h2>
+                            <h2 className='text-3xl text-orange-500'>QR-Code Management</h2>
+                            <p className='text-3xl text-orange-500 '>paperless Solutions</p>
                         </div>
                         
                     </div>
@@ -126,9 +126,8 @@ function Pages() {
                             src="/images/pc.jpg"
                             className="w-80 h-[400px] object-cover" 
                             alt="Burger" />
-                            <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>whhhhh</h2>
-                            <h2 className='text-3xl text-orange-500'>jhdfgj</h2>
-                            <p className='text-sm text-gray-400 '>ijh</p>
+                            <h2 className='mt-4 mb-6 text-sm text-gray-400 font-bold'>My Task Master</h2>
+                            <h2 className='text-3xl text-orange-500'>Buy Youtube Views</h2>
                         </div>
                         
                     </div>
